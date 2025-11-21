@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(
+      var(--blue),
+      var(--blue2)
+  );
+  color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header .site-name a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .site-name a:hover {
+  opacity: 0.8;
+}
+
+.current-time {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: var(--white);
+  opacity: 0.8;
+}
+
+
+.green {
+  color: var(--green);
+}

@@ -1,0 +1,15 @@
+.promotions-page {
+  padding: 20px;
+}
+
+.promotions-page h1 {
+  color: var(--white);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .promotions-page {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,84 @@
+.table-container {
+  overflow-x: auto;
+  background: var(--blue2);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(var(--blues), 0.25);
+  margin-top: 30px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: transparent;
+}
+
+.user-table thead {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(var(--white-rgb), 0.15);
+  color: var(--white);
+}
+
+.user-table tbody tr:hover {
+  background-color: rgba(var(--green-rgb), 0.12);
+}
+
+.btn-posts,
+.btn-todos {
+  padding: 8px 16px;
+  margin-right: 5px;
+  border: 2px solid var(--green);
+  background-color: transparent;
+  color: var(--green);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-posts:hover,
+.btn-todos:hover {
+  background-color: rgba(var(--green-rgb), 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(var(--blues), 0.35);
+}
+
+.btn-posts:active,
+.btn-todos:active {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: var(--white);
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .user-table {
+    font-size: 12px;
+  }
+
+  .user-table th,
+  .user-table td {
+    padding: 8px;
+  }
+
+  .btn-posts,
+  .btn-todos {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}

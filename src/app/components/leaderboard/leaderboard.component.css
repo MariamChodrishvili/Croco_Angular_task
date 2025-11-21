@@ -1,0 +1,119 @@
+.leaderboard-container { 
+  background: var(--blue2);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(var(--blues), 0.2);
+}
+
+.leaderboard-container h2 {
+  text-align: center;
+  color: var(--green);
+  margin-bottom: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  border: 2px solid var(--green);
+  background-color: transparent;
+  color: var(--green);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: rgba(var(--green-rgb), 0.15);
+}
+
+.filter-btn.active {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.leaderboard-table {
+  overflow-x: auto;
+}
+
+.leaderboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leaderboard-table thead {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(var(--white-rgb), 0.15);
+  color: var(--white);
+}
+
+.leaderboard-table tbody tr:hover {
+  background-color: rgba(var(--green-rgb), 0.1);
+}
+
+.place-cell {
+  text-align: center;
+}
+
+.place-badge {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  background-color: var(--green2);
+  color: var(--white);
+  font-weight: bold;
+  text-align: center;
+}
+
+.place-badge.top-three {
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  color: #333;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);
+}
+
+.week-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: rgba(var(--green-rgb), 0.15);
+  color: var(--green);
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .leaderboard-table {
+    font-size: 12px;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 8px;
+  }
+
+  .filter-buttons {
+    gap: 5px;
+  }
+
+  .filter-btn {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+}

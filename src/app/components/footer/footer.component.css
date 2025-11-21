@@ -1,0 +1,11 @@
+.footer {
+  background: linear-gradient(
+      var(--blue2),
+      var(--blue)
+  );
+  color: rgba(var(--white-rgb), 0.4);
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+

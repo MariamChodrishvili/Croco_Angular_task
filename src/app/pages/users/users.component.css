@@ -1,0 +1,53 @@
+.users-page {
+  padding: 30px;
+  background-color: var(--blue2);
+  min-height: 100vh;
+  
+}
+
+.users-page h1 {
+  color: var(--green);
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.search-container {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid var(--green);
+  background-color: var(--white);
+  color: var(--blue);
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.search-input::placeholder {
+  color: var(--blue3);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--green2);
+  box-shadow: 0 0 8px rgba(var(--green-rgb), 0.3);
+}
+
+@media (max-width: 768px) {
+  .users-page {
+    padding: 10px;
+  }
+  
+  .search-input {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
