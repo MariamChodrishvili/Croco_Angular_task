@@ -52,8 +52,6 @@ The application demonstrates:
 
 ## Screenshots
 
-## Screenshots
-
 ### Main Page
 ![Main](src/assets/screenshots/main.png)
 
