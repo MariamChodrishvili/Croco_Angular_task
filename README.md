@@ -52,38 +52,40 @@ The application demonstrates:
 
 ## Screenshots
 
-Main Page:
-![Main](assets/screenshots/main.png)
+## Screenshots
 
-Users Table:
-![Users Table](assets/screenshots/users_table.png)
+### Main Page
+![Main](src/assets/screenshots/main.png)
 
-All Posts:
-![All Posts](assets/screenshots/All_Posts.png)
+### Users Table
+![Users Table](src/assets/screenshots/users_table.png)
 
-User Posts:
-![User Posts](assets/screenshots/User_Posts.png)
+### All Posts
+![All Posts](src/assets/screenshots/All_Posts.png)
 
-Posts Page:
-![Posts](assets/screenshots/Posts.png)
+### User Posts
+![User Posts](src/assets/screenshots/User_Posts.png)
 
-Todos Page:
-![Todos](assets/screenshots/Todos.png)
+### Posts Page
+![Posts](src/assets/screenshots/Posts.png)
 
-Single Todo:
-![ToDo](assets/screenshots/ToDo.png)
+### Todos Page
+![Todos](src/assets/screenshots/Todos.png)
 
-Promotions Page:
-![Promotions](assets/screenshots/Promotions_page.png)
+### Single Todo
+![ToDo](src/assets/screenshots/ToDo.png)
 
-Wheel Component:
-![Wheel](assets/screenshots/wheel.png)
+### Promotions Page
+![Promotions](src/assets/screenshots/Promotions_page.png)
 
-Leaderboard:
-![Leaderboard](assets/screenshots/leaderboard.png)
+### Wheel Component
+![Wheel](src/assets/screenshots/wheel.png)
 
-Sidebar (Opened):
-![Sidebar Opened](assets/screenshots/navbar_opened.png)
+### Leaderboard
+![Leaderboard](src/assets/screenshots/leaderboard.png)
 
-Sidebar (Closed):
-![Sidebar Closed](assets/screenshots/navbar_closed.png)
+### Sidebar (Opened)
+![Sidebar Opened](src/assets/screenshots/navbar_opened.png)
+
+### Sidebar (Closed)
+![Sidebar Closed](src/assets/screenshots/navbar_closed.png)
