@@ -1,59 +1,89 @@
-# MyApp
+# Croco Angular Task
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.19.
+This is my completed Angular 19 project for the Croco Angular challenge.
 
-## Development server
+The application demonstrates:
 
-To start a local development server, run:
+- A responsive, multi-page Angular app with **header, navigation, table, and footer**
+- API integration with [JSONPlaceholder](https://jsonplaceholder.typicode.com/) to fetch users and posts
+- Interactive components including a **wheel** and a **leaderboard**
+- Filtering, searching, and animations for buttons and interactive elements
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Features
 
-## Code scaffolding
+### Header
+- Displays the site name (clickable to return to the main page)
+- Shows the current date and time in the top-right corner
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Navigation
+- Left-side menu with buttons for:
+  - Users
+  - Posts
 
-```bash
-ng generate component component-name
-```
+### Users Table
+- Columns: First Name, Last Name, Phone, Email, Company Name
+- Each row has a **Posts** button:
+  - Hover: simple animation
+  - Click: navigates to the posts of that user
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Posts Table
+- Columns: User Name, Post Title
+- Each post has a **Details** button:
+  - Opens a popup showing the full title and description
+- Filtered by the user that was clicked
 
-```bash
-ng generate --help
-```
+### Todo List (Optional)
+- Each user row can navigate to their todo list
+- Completed tasks are highlighted in green
 
-## Building
+### Promotions Page
+- **Wheel component**
+  - 10 numbered sectors (1–10)
+  - Input a number to spin the wheel to that sector
+  - Shows an error if the number is not 1–10
+- **Leaderboard component**
+  - Week filter buttons (I, II, III, IV, ALL)
+  - Displays a list of user scores
+  - Active filter visually highlighted
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## Screenshots
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Main Page:
+![Main](assets/screenshots/main.png)
 
-## Running unit tests
+Users Table:
+![Users Table](assets/screenshots/users_table.png)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+All Posts:
+![All Posts](assets/screenshots/All_Posts.png)
 
-```bash
-ng test
-```
+User Posts:
+![User Posts](assets/screenshots/User_Posts.png)
 
-## Running end-to-end tests
+Posts Page:
+![Posts](assets/screenshots/Posts.png)
 
-For end-to-end (e2e) testing, run:
+Todos Page:
+![Todos](assets/screenshots/Todos.png)
 
-```bash
-ng e2e
-```
+Single Todo:
+![ToDo](assets/screenshots/ToDo.png)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Promotions Page:
+![Promotions](assets/screenshots/Promotions_page.png)
 
-## Additional Resources
+Wheel Component:
+![Wheel](assets/screenshots/wheel.png)
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Leaderboard:
+![Leaderboard](assets/screenshots/leaderboard.png)
+
+Sidebar (Opened):
+![Sidebar Opened](assets/screenshots/navbar_opened.png)
+
+Sidebar (Closed):
+![Sidebar Closed](assets/screenshots/navbar_closed.png)
